@@ -75,7 +75,7 @@ public class TreeSetMethod02 {
 		ts4.add(m1);
 		ts4.add(m2);
 		for (MyClass m : ts4) {
-			System.out.println(m.d1);
+			System.out.println(m.d1); //순차적으로 d1만 출력
 		}
 	}
 }
