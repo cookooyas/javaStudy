@@ -1,5 +1,6 @@
 package oop21.files;
 
+//잔디누락
 import java.io.UnsupportedEncodingException;
 
 public class EUCKRvsMS949 {
