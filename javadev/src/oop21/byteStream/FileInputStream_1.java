@@ -1,4 +1,4 @@
-package oop20.byteStream;
+package oop21.byteStream;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -7,7 +7,7 @@ import java.io.InputStream;
 
 public class FileInputStream_1 {
 	public static void main(String[] args) throws IOException {
-		File inFile = new File("src/oop20/byteStream/FileInputStream1.txt");
+		File inFile = new File("src/oop21/byteStream/FileInputStream1.txt");
 		InputStream is = new FileInputStream(inFile);
 		int data;
 		while ((data = is.read()) != -1) {
